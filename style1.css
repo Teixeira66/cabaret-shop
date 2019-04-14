@@ -1,0 +1,250 @@
+body {
+  /*reset*/
+  margin: 0;
+  padding: 0;
+  /*base*/
+  background-image: linear-gradient(red, black);
+  /*typography*/
+  font-family: 'Kalam', cursive;
+  font-size: 25px;
+  line-height: 1.8;
+}
+
+/*decoration*/
+h1 {
+  font-size: 50px;
+  padding: 150px 0 0 0;
+  margin: 0 0 25px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 10px;
+  margin: 50px;
+}
+
+.banner {
+  padding-top: 0;
+  width: 100%;
+}
+
+p {
+  color: black;
+  font-size: 35px;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
+}
+
+.logo {
+  max-width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-menu ul {
+  text-align: center;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.main-menu li {
+  margin: 2px;
+  margin-bottom: 2px;
+  flex: 1 0 auto;
+  display: flex;
+  text-align: center;
+}
+
+.main-menu a {
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  color: #ff0000;
+  display: flex;
+  padding: 5px 10px;
+}
+
+.main-menu a.current {
+  color: white;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  color: white;
+}
+
+
+.Bem-vindos h1{
+  font-size: 50px;
+  padding: 150px 0 0 0;
+  margin: 0 0 25px 0;
+  text-align: center;
+
+}
+
+.Bem-vindos p{
+  color: black;
+  font-size: 35px;
+  margin: 20px;
+  padding-bottom: 100px;
+  text-align: justify;
+
+}
+
+.video video {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  height: auto;
+  max-width: 900px;
+}
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columns {
+  display: flex;
+  align-content: center;
+  flex: 1 0 auto;
+  padding: 0;
+  width: 439px;
+  height: 500px;
+}
+
+.columns ul {
+  list-style-type: none;
+}
+
+.wheelchair {
+  background-image: url(images1/26993842_1572278366141901_5293498791063818384_n.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-width: 100%;
+  height: 100%;
+  margin: 5px;
+}
+
+.facetowel {
+  background-image: url(images1/50299129_2015074175195649_9124266087406370816_n.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-width: 100%;
+  height: 100%;
+  margin: 5px;
+}
+
+.shopsview {
+  background-image: url(images1/29244469_1620865931283144_6935189138593284096_n.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-width: 100%;
+  height: 100%;
+  margin: 5px;
+}
+
+.column-text {
+  align-items: flex-end;
+  display: inline-table;
+  margin-top: 40px;
+  margin-bottom:40px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d90000;
+
+}
+
+.column-text2{
+  align-items: flex-end;
+  display: inline-table;
+  font-size: 35px;
+  margin-left: 5px;
+  margin-top: 40px;
+  margin-bottom:40px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #d90000;
+  text-align: justify;
+  padding-right: 40px;
+
+}
+
+.column-text h2{
+padding-top: 5px;
+
+}
+
+
+.column-text li {
+  font-size: 30px;
+  list-style-type: none;
+
+}
+
+.column-text2 li{
+  list-style-type: none;
+}
+
+
+.come-visit {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #d90000;
+}
+
+.come-visit h2 {
+  padding-top: 50px;
+}
+
+.come-visit p {
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  flex-wrap: wrap;
+  display: inline-flex;
+  width: 100%;
+}
+
+
+.footer p {
+  font-size: 20px;
+  flex-wrap: wrap;
+  color: #ff0000;
+}
+
+.footer i {
+  padding: 10px;
+  color: #ff0000;
+  margin-top: 15px;
+
+}
+
+.service-columns{
+display: flex;
+}
+
+.examples{
+  width: 100%;
+}
+
+.examples2{
+  width: 100%;
+}
