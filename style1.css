@@ -104,8 +104,9 @@ h1 {
   display: block;
   margin: 0 auto;
   position: relative;
-  height: auto;
-  max-width: 900px;
+  height: 100%;
+  width: 900px;
+  max-width: 100%;
 }
 
 .video {
@@ -241,4 +242,8 @@ padding-top: 5px;
   object-fit: cover;
   height: 100%;
   width: 50%;
+}
+.examples1{
+  height: 100%;
+  width:50%;
 }
